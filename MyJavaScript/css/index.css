@@ -1,0 +1,54 @@
+/*头部*/
+header {
+	width: 98%;
+	height: 3.5em;
+	line-height: 3.5em;
+	padding-left: 2%;
+	font-size: 1.2em;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/*内容*/
+section {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.ulList {
+	width: 100%;
+}
+
+.ulList li {
+	width: 92%;
+	height: 4em;
+	line-height: 4em;
+	padding: 0 4%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.liLeft {
+	width: 80%;
+	height: 100%;
+	font-size: 1.1em;
+}
+
+.liRight {
+	width: 20%;
+	height: 100%;
+	text-align: right;
+}
+
+.liRight img {
+	width: 2em;
+	height: 2em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*footer*/
+footer {
+	width: 100%;
+	background: #000000;
+}

@@ -1,0 +1,60 @@
+/*头部*/
+header {
+	width: 96%;
+	height: 10em;
+	padding: 0 2%;
+	line-height: 10em;
+	background: #000000;
+}
+
+header div {
+	font-size: 3em;
+	color: #FFFFFF;
+}
+
+header div img {
+	width: 1.5em;
+	height: 1.5em;
+	margin-top: 0.9em;
+}
+.detail {
+	margin-left: 3%;
+}
+
+/*内容*/
+section {
+	width: 100%;
+	overflow-y: auto;
+}
+
+ul {
+	height: 100%;
+}
+
+ul li {
+	width: 92%;
+	height: 7em;
+	line-height: 7em;
+	padding: 0 4%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.liLeft {
+	width: 80%;
+	height: 100%;
+	font-size: 3em;
+}
+
+.liRight {
+	width: 20%;
+	height: 100%;
+	text-align: right;
+}
+
+.liRight img {
+	width: 4em;
+	height: 4em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

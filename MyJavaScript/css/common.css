@@ -1,0 +1,42 @@
+/*头部*/
+header {
+	width: 96%;
+	height: 10em;
+	padding: 0 2%;
+	line-height: 10em;
+	background: #000000;
+}
+
+header div {
+	font-size: 3em;
+	color: #FFFFFF;
+}
+
+header div img {
+	width: 1.5em;
+	height: 1.5em;
+	margin-top: 0.9em;
+}
+
+/*内容*/
+section {
+	width: 100%;
+	overflow-y: auto;
+}
+
+
+.detail {
+	margin-left: 3%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.sign {
+	border-top: 1px solid #DDDDDD;
+}
